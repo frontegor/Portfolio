@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat/montserrat-medium-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat/montserrat-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/ubuntu/ubuntu-bold-webfont.woff2") format("woff2"),
+    url("../fonts/ubuntu/ubuntu-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/ubuntu/ubuntu-light-webfont.woff2") format("woff2"),
+    url("../fonts/ubuntu/ubuntu-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/ubuntu/ubuntu-medium-webfont.woff2") format("woff2"),
+    url("../fonts/ubuntu/ubuntu-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url("../fonts/ubuntu/ubuntu-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ubuntu/ubuntu-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: "ubuntu", sans-serif, Arial, Helvetica, sans-serif;
+  width: 100%;
+  min-width: 320px;
+  color: var(--dark);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-2 {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 1920px) {
+  .container-2 {
+    max-width: 2040px;
+  }
+}
+
+.container3 {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container4 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 1024px) {
+  .container4 {
+    max-width: 700px;
+  }
+}
+
+.container__project {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 1400px) {
+  .container__project {
+    padding: 0 40px;
+  }
+}
+
+:root {
+  --white: #fff;
+  --black: #181818;
+  --dark: #222222;
+  --montserrat: "montserrat", sans-serif, Arial, Helvetica;
+}
